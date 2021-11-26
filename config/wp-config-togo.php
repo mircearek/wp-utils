@@ -51,7 +51,7 @@ define ('WP_CONTENT_FOLDERNAME', 'custom_wp-content_folder');
 define ('WP_CONTENT_DIR', ABSPATH . WP_CONTENT_FOLDERNAME);
  
 //Define new directory URL
-define('WP_SITEURL', 'http://' . $_SERVER['HTTP_HOST'] . '/');
+define('WP_SITEURL', 'https://' . $_SERVER['HTTP_HOST'] . '/');
 define('WP_CONTENT_URL', WP_SITEURL . WP_CONTENT_FOLDERNAME);
 
 
