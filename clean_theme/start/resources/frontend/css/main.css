@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Asap+Condensed:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap');
+body {
+    font-family: 'Asap Condensed', sans-serif;
+}
+
+h1 {
+    font-size: 70px;
+    text-align: center;
+}
+h2 {
+    font-size: 50px;
+    color: #004885;
+    font-weight: 700;
+    
+}
+h2.white {
+    color: #fff;
+}
+p {
+    color: #6E6E6E;
+    font-size: 20px;
+    line-height: 27px;
+}
+
+h3.subtitle {
+    font-size: 30px;
+    color: #6E6E6E;
+    
+}
+
+.btn {
+    border: 0;
+    border-radius: 20px;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 500;
+    background: #fff;
+}
+.btn.green {
+    background: #99CA48;
+    color: #fff;
+}
+.btn.purple {
+    color: #764C9D;
+}
+.btn.pink {
+    color: #E83479;
+}
+.btn.red {
+    color: #EC3635;
+}
+.btn.mustard {
+    color: #C7972F;
+}
+.btn.blue {
+    background: #558FCB;
+    color: #fff;
+}
+.btn.orage {
+    background: #F2732C;
+    color: #fff;
+}
+header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 999;
+    background: transparent;
+    width: 100%;
+    height: 100px;
+}
+footer {
+    background: #010033;
+    width: 100%;
+    height: auto;
+}
+footer a {
+    color: #fff;
+    font-size: 13px;
+
+}
+
+textarea,
+input {
+    color: #6E6E6E;
+    font-size: 20px;
+    font-weight: 400;
+    border: 1px solid #6E6E6E;
+    border-radius: 0;
+}
+
+.full-width {
+    width: 100%;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+}
+.cust-align-middle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+h1.white-title {
+    color: #fff;
+    font-size: 70px;
+    line-height: 80px;
+    text-align: center;
+}

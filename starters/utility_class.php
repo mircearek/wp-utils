@@ -8,6 +8,7 @@ class PROJECT_UTILITY {
 
     public function __construct() {
 
+        add_action( 'wp_enqueue_scripts', array( $this, 'styles' ) );
 
         add_action( 'wp_enqueue_scripts', array( $this, 'scripts' ) );
 
@@ -18,6 +19,10 @@ class PROJECT_UTILITY {
 
     }
 
+
+    public function styles() {
+        wp_enqueue_style( 'style-child', get_stylesheet_directory_uri() . '/style.css' );
+    }
 
     function scripts() {
         
