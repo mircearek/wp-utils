@@ -45,6 +45,7 @@ $table_prefix = 'CHANGEPREFIX_';
  *
  * @link https://wordpress.org/support/article/debugging-in-wordpress/
  */
+define('DISALLOW_FILE_EDIT', true);
 
 define ('WP_CONTENT_FOLDERNAME', 'custom_wp-content_folder');
 //Define new directory path
