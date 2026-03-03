@@ -9,7 +9,7 @@ if (php_sapi_name() !== 'cli') {
     exit;
 }
  
-// Load WordPress
+// Load WordPress resources
 require_once('wp-load.php');
 
 // Function to process a directory recursively
