@@ -8,7 +8,7 @@ if (php_sapi_name() !== 'cli') {
     echo "This script must be run from the command line.";
     exit;
 }
-
+ 
 // Load WordPress
 require_once('wp-load.php');
 
