@@ -1,0 +1,42 @@
+.wact-copy-grid {
+	display: grid;
+	gap: 16px;
+	max-width: 860px;
+	margin-top: 8px;
+}
+
+.wact-copy-card {
+	background: #fff;
+	border: 1px solid #dcdcde;
+	border-radius: 4px;
+	padding: 14px 16px;
+}
+
+.wact-copy-card__head {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	gap: 12px;
+	margin-bottom: 6px;
+}
+
+.wact-copy-card textarea {
+	width: 100%;
+	font-family: Consolas, Monaco, monospace;
+	font-size: 12px;
+	line-height: 1.5;
+}
+
+.wact-copy-card .button.is-copied {
+	background: #00a32a;
+	border-color: #00a32a;
+	color: #fff;
+}
+
+.wact-help-list {
+	max-width: 860px;
+}
+
+.wact-help-list li {
+	margin: 0 0 8px;
+}
